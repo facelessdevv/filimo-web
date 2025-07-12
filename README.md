@@ -33,7 +33,7 @@ Inspired by the Android Jetpack Compose version, this app uses hardcoded Filimo-
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/your-username/filimo-web
+git clone https://github.com/facelessdevv/filimo-web
 
 # 2. Navigate into the project
 cd filimo-web
