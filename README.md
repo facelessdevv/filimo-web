@@ -2,7 +2,7 @@ cat > README.md << 'EOF'
 # 🎬 Filimo Movie Explorer (React)
 
 A modern web version of the Filimo Movie Explorer built with **React**, designed to simulate a rich movie browsing experience.  
-Inspired by the Android Jetpack Compose version, this app uses hardcoded Filimo-style API data and mimics production-ready features like movie rows, pagination, dark/light mode, RTL layout, and local likes.
+This app uses hardcoded Filimo-style API data and mimics production-ready features like movie rows, pagination, dark/light mode, RTL layout, and local likes.
 
 > This project focuses on frontend architecture, component reusability, and responsive UI.
 
@@ -12,7 +12,7 @@ Inspired by the Android Jetpack Compose version, this app uses hardcoded Filimo-
 
 <table>
   <tr>
-    <td><img src="web_preview.gif" width="1000"/></td>
+    <td><img src="web_preview.gif" width="800"/></td>
   </tr>
 </table>
 
@@ -24,7 +24,6 @@ Inspired by the Android Jetpack Compose version, this app uses hardcoded Filimo-
 - 📜 **Persian RTL Layout** using custom **Vazir font**
 - 🔁 **Auto-pagination** every 10 seconds using `links.forward` from hardcoded API response
 - 🎞️ **Horizontal slider rows** mimicking Filimo's UI
-- ❤️ **Local Like/Unlike Functionality** stored in `localStorage`
 - 📦 **No Backend Required** — uses hardcoded JSON structure
 
 ---
