@@ -1,0 +1,135 @@
+.app-container {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 1rem;
+}
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.movie-card {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 1rem;
+    width: 160px;
+    transition: transform 0.3s;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+button {
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+/* Set right-to-left text direction globally */
+body {
+    direction: rtl;
+    background-color: #000; /* Black background */
+    color: #fff;            /* White text */
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Optional: center and space the app content */
+.app-container {
+    padding: 2rem;
+    text-align: right;
+}
+
+/* Movie card styling */
+.movie-card {
+    background-color: null;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 1rem;
+    width: 200px;
+    text-align: right;
+    transition: transform 0.3s;
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+/* Movie list layout */
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding: 2rem;
+}
+p, h1, h2, h3 {
+    text-align: right;
+}
+body {
+    direction: rtl;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.movie-section {
+    margin-bottom: 2rem;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    color: #fefefe;
+}
+
+.section-header h2 {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.section-header a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #ffcc00;
+}
+
+.movie-row {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 1rem 2rem;
+}
+
+.movie-card {
+    background-color: #1a1a1a;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 1rem;
+    width: 150px;
+    flex-shrink: 0;
+    text-align: right;
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 8px;
+}
