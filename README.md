@@ -12,7 +12,7 @@ Inspired by the Android Jetpack Compose version, this app uses hardcoded Filimo-
 
 <table>
   <tr>
-    <td><img src="dark_web_preview.gif" width="300"/></td>
+    <td><img src="web_preview.gif" width="300"/></td>
   </tr>
 </table>
 
